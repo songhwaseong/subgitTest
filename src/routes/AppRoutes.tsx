@@ -24,10 +24,6 @@ function AppRoutes({ user, handleLoginSuccess }: AppProps) {
     return (
         <Routes>
             <Route path='/' element={<HomePage />} />
-            {/* <Route path='/fruit' element={<FruitOne />} />
-            <Route path='/fruitList' element={<FruitList />} />
-            <Route path='/coffee' element={<CoffeeOne />} />
-            <Route path='/coffeeList' element={<CoffeeList />} /> */}
             <Route path='/member/info' element={<UserInfo />} />
             <Route path='/member/signup' element={<SignUpPage />} />
             <Route path='/member/login' element={< LoginPage onLogin={handleLoginSuccess} />} />
