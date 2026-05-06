@@ -1,10 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 
 import HomePage from '../pages/HomePage';
-// import FruitOne from './../pages/FruitOne'; // 표현식01
-// import FruitList from './../pages/FruitList';
-// import CoffeeOne from './../pages/CoffeeOne';
-// import CoffeeList from './../pages/CoffeeList';
 import SignUpPage from '../pages/SignUpPage';
 import LoginPage from '../pages/LoginPage';
 import UserInfo from '../pages/UserInfo';
